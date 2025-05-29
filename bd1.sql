@@ -125,7 +125,7 @@ CREATE DEFINER=`root`@`localhost` PROCEDURE `inserir_tecnico`(
     IN p_especialidade VARCHAR(100)
 )
 BEGIN
-    INSERT INTO tecnicos (nome, especialidade)
+    INSERT INTO tecnico (nome, especialidade)
     VALUES (p_nome, p_especialidade);
 END ;;
 DELIMITER ;
